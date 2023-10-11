@@ -1,7 +1,5 @@
 const panel = document.querySelectorAll(".panel");
 const arrayPanel = Array.from(panel);
-console.log(arrayPanel);
-
 
 arrayPanel.forEach(panel => {
     panel.addEventListener("click", function(e) {
